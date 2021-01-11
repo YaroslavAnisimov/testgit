@@ -3,11 +3,13 @@ a = int(input())
 b = a !=0 and ('no 0 here')
 print (b)
 #Вывести первое ненулевое значение. Если введены все нули - вывести "Введены все нули!" 
-a = int(input())
-if a !=0:
-    print (a)
-else:
-    print('all 0 are here')
+a=int(input())
+b=int(input())
+c=int(input())
+print (a != 0 and b!=0 and c!=0 and 'No 0 values')
+nul = a or b or c or 'All numbers are 0'
+print (f'First no 0 value = {nul}')
+
 #Если первое значение  больше чем сумма второго и третьего вывести a - b - c
 a=int(input())
 b=int(input())
