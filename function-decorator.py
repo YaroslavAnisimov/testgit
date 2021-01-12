@@ -3,12 +3,16 @@ def decorator(autoriz):
     def wrapper_decorator(*args, **kwargs):
         autoriz (*args, **kwargs)
         print('You need to be autorized, enter the Login')
-        log = input('Yarik')
-        if log:
+        i = input()
+        log == yarik
+        if i == log:
             print ('Welcome', log)
             next
         else:
             print ('Invalid password')
+            return
+        value = autoriz (*args, **kwargs)
+        return value
     return wrapper_decorator 
 
 
@@ -43,5 +47,3 @@ if option == 3:
             print('Your BMI is',c,'which means you are obese!!!')
         else:
             print("Invalid command. Select from 1-3")
-
-
