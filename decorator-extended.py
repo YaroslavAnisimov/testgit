@@ -17,6 +17,8 @@ def decorator1 (autoriz1):
             complete = True
         else:
             print("Input password again")
+        value = autoriz (*args, **kwargs)
+        return value
     return wrapper_decorator
 
 
