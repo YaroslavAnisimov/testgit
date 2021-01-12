@@ -1,13 +1,11 @@
-
 def decorator(autoriz):
     def wrapper_decorator(*args, **kwargs):
         autoriz (*args, **kwargs)
         print('You need to be autorized, enter the Login')
-        i = input()
-        log == yarik
-        if i == log:
-            print ('Welcome', log)
-            next
+        i = str(input())
+        log = 'YARIK'
+        if i in log :
+            print ('Welcome')
         else:
             print ('Invalid password')
             return
